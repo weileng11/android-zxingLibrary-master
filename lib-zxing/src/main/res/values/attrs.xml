@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ViewfinderView">
+        <attr name="inner_width" format="dimension"/> // 扫描框的宽度
+        <attr name="inner_height" format="dimension"/>  // 扫描框的高度
+        <attr name="inner_margintop" format="dimension" />  // 扫描框距离顶部
+        <attr name="inner_corner_color" format="color" />  // 扫描框边角颜色
+        <attr name="inner_corner_length" format="dimension" /> //扫描框边角长度
+        <attr name="inner_corner_width" format="dimension" /> // 扫描框边角宽度
+        <attr name="inner_scan_bitmap" format="reference" />  // 扫描控件
+        <attr name="inner_scan_speed" format="integer" />  // 扫描速度
+        <attr name="inner_scan_iscircle" format="boolean" />  // 是否展示小圆点
+    </declare-styleable>
+
+</resources>
